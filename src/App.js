@@ -22,7 +22,7 @@ class App extends React.Component{
   render(){
     return(
       <div className='App'>
-        
+        <h1>Nepal</h1>
         <h1>{this.props.age}</h1>
         <br />
         <button onClick={this.props.onAgeUp}>Increase</button>
@@ -34,4 +34,4 @@ class App extends React.Component{
 
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(App);
+export default connect(mapStateToProps,mapDispatchToProps)(App)
